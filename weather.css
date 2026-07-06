@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: blue;
+}
+
+.container{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.weather_container{
+    color: white;
+}
+.tem{
+    font-size: 4.5rem;
+}
+.timeandlocation{
+    font-size: 2rem;
+}
+.condition{
+    margin: 0.5rem;
+    margin-top: 0;
+}
+nav{
+    height: px;
+}
+.Search{
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: transparent;
+    height: 1.5vh;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1rem;
+}
+nav form button{
+border: 0;
+background-color: transparent;
+outline: none;
+font-size: 1rem;
+}
