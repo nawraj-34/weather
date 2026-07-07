@@ -21,25 +21,25 @@ async function FetchResult(location) {
     temperature_C.innerText = temperature;
     region_name.innerText = region;
     switch(day){
-        case 0:
+        case 2:
             day_name.innerText = "sunday";
             break;
-        case 1:
+        case 3:
             day_name.innerText = "Monday";
             break;
-        case 2:
+        case 4:
             day_name.innerText = "Tuesday";
             break;
-        case 3:
+        case 5:
             day_name.innerText ="Wednesday";
             break;
-        case 4:
+        case 6:
             day_name.innerText ="Thusday";
             break;
-        case 5:
+        case 7:
             day_name.innerText ="Friday";
             break;
-        case 6:
+        case 8:
             day_name.innerText="Saturday";
     }
     date_current.innerText = date;
