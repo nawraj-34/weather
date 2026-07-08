@@ -13,7 +13,7 @@ async function FetchResult(location) {
     let url = `https://api.weatherapi.com/v1/current.json?key=c1048f91529442018aa71308260607&q=${location}&aqi=no`
     let result = await fetch(url);
     let data = await result.json();
-    let temperature = data.current.temp_c,°C;
+    let temperature = data.current.temp_c;
     let region = location;
     console.log(data);
     let day = data.current.is_day;
