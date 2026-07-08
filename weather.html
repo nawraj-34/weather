@@ -12,7 +12,7 @@
 <div class="container">
     <div class="weather_container">
         <div class="tem">
-            <p id="temperature">20°C</p>
+            <p id="temperature">20</p>
         </div>
         <div class="timeandlocation">
             <p id="region">Nepal</p>
@@ -24,13 +24,17 @@
         </div>
     </div>
 </div>
+<div class="search-wrapper">
 <nav>
     <form>
-        <input type="text" placeholder="Search for location" value="" class="Search">
+        <input type="text" id="searchInput" placeholder="Search for location" value="Kapilvastu" class="Search">
+        <ul id="itemList" class="dropdown">
+</ul>
         <button type="submit" id="MyButton">Search</button>
     </form>
 </nav>
-
+</div>
     <script src="weather.js"></script>
+    <script src="dropdown.js"></script>
 </body>
 </html>
