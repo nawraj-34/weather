@@ -59,9 +59,6 @@ nav form input :focus{
     border-color: black;
 }
 
-#MyButton :hover{
-    surface: wave(x,y);
-}
 
 #MyButton{
      background-color: white;
