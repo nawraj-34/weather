@@ -1,11 +1,6 @@
 
-.search-wrapper {
-  max-width: 400px;
-  margin-bottom: 20px;
-}
-
 #searchInput {
-  width: 100%;
+  width: 30%;
   padding: 12px 16px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -26,12 +21,7 @@
 }
 
 #itemList li {
-  background: white;
   padding: 12px 16px;
-  border: 1px solid #e0e0e0;
-  border-top: none;
+  border: none;
 }
 
-#itemList li:first-child {
-  border-top: 1px solid #e0e0e0;
-}
